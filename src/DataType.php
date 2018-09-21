@@ -4,8 +4,8 @@ abstract class DataType {
 	
 	protected static $shortType = 's';
 	
-	public function __construct(){
-		
+	public function __construct($value){
+		$this->value = $value;
 	}
 	
 	public function getValue(){
