@@ -1,5 +1,5 @@
 <?php
-namespace typ;
+namespace phpram\typ;
 abstract class DataType {
 	
 	protected static $shortType = 's';
