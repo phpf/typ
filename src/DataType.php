@@ -2,6 +2,7 @@
 namespace phpram\typ;
 abstract class DataType {
 	
+	protected $value;
 	protected static $shortType = 's';
 	
 	public function __construct($value){
